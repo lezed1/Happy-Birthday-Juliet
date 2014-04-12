@@ -132,15 +132,15 @@ KeyboardInputManager.prototype.restart = function (event) {
   this.emit("restart");
 };
 
-function redirect()
+/*function redirect()
 {
-    window.location.href = "mailto:julietkbenjamin0430@gmail.com?Subject=Yes, I'll go to prom with you!";
-}
+    window.location.href = "mailto:someone@example.com?Subject=Yes, I'll go to prom with you!";
+}*/
 
 KeyboardInputManager.prototype.keepPlaying = function (event) {
   event.preventDefault();
   this.emit("keepPlaying");
-  redirect();
+  //redirect();
 };
 
 KeyboardInputManager.prototype.bindButtonPress = function (selector, fn) {
