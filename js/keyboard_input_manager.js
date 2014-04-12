@@ -132,15 +132,10 @@ KeyboardInputManager.prototype.restart = function (event) {
   this.emit("restart");
 };
 
-/*function redirect()
-{
-    window.location.href = "mailto:someone@example.com?Subject=Yes, I'll go to prom with you!";
-}*/
-
 KeyboardInputManager.prototype.keepPlaying = function (event) {
   event.preventDefault();
   this.emit("keepPlaying");
-  //redirect();
+  document.querySelector("#confetti-canvas").classList.add("yes");
 };
 
 KeyboardInputManager.prototype.bindButtonPress = function (selector, fn) {
