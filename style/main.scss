@@ -566,44 +566,44 @@ hr {
   display: inline;
 }
 
-.tile.tile-4 > .tile-inner {
-  font-size: 37px;
-  @include smaller($mobile-threshold) {
-    font-size: 23px;
-  }
-}
+// .tile.tile-4 > .tile-inner {
+//   font-size: 37px;
+//   @include smaller($mobile-threshold) {
+//     font-size: 23px;
+//   }
+// }
 
-.tile.tile-8 > .tile-inner {
-  font-size: 31px;
-  @include smaller($mobile-threshold) {
-    font-size: 18px;
-  }
-}
+// .tile.tile-8 > .tile-inner {
+//   font-size: 31px;
+//   @include smaller($mobile-threshold) {
+//     font-size: 18px;
+//   }
+// }
 
-.tile.tile-16 > .tile-inner {
-  font-size: 24px;
-  @include smaller($mobile-threshold) {
-    font-size: 13px;
-  }
-}
+// .tile.tile-16 > .tile-inner {
+//   font-size: 24px;
+//   @include smaller($mobile-threshold) {
+//     font-size: 13px;
+//   }
+// }
 
-.tile.tile-32 > .tile-inner {
-  font-size: 18px;
-  @include smaller($mobile-threshold) {
-    font-size: 10px;
-  }
-}
+// .tile.tile-32 > .tile-inner {
+//   font-size: 18px;
+//   @include smaller($mobile-threshold) {
+//     font-size: 10px;
+//   }
+// }
 
-.tile.tile-64 > .tile-inner {
-  font-size: 15px;
-  @include smaller($mobile-threshold) {
-    font-size: 8px;
-  }
-}
+// .tile.tile-64 > .tile-inner {
+//   font-size: 15px;
+//   @include smaller($mobile-threshold) {
+//     font-size: 8px;
+//   }
+// }
 
-.tile.tile-128 > .tile-inner {
-  font-size: 13px;
-  @include smaller($mobile-threshold) {
-    font-size: 7px;
-  }
-}
+// .tile.tile-128 > .tile-inner {
+//   font-size: 13px;
+//   @include smaller($mobile-threshold) {
+//     font-size: 7px;
+//   }
+// }

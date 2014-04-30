@@ -71,27 +71,31 @@ HTMLActuator.prototype.addTile = function (tile) {
       break;
     
     case 4:
-      display = "Happ";
+      display = "pp";
       break;
     
     case 8:
-      display = "Happy ";
+      display = "y ";
       break;
     
     case 16:
-      display = "Happy Bi";
+      display = "Bi";
       break;
     
     case 32:
-      display = "Happy Birth";
+      display = "rt";
       break;
     
     case 64:
-      display = "Happy Birthda";
+      display = "hd";
       break;
     
     case 128:
-      display = "Happy Birthday!";
+      display = "ay";
+      break;
+    
+    case 256:
+      display = "!";
       break;
 
     default:
