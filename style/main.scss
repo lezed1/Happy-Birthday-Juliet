@@ -547,3 +547,21 @@ hr {
     }
   }
 }
+
+#confetti-canvas {
+  z-index: 1000;
+  position: fixed;
+  top: 0px;
+  left: 0px;  
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  display: none;
+  -webkit-animation: appear 200ms ease 100ms;
+  -moz-animation: appear 200ms ease 100ms;
+  animation: appear 200ms ease 100ms;
+}
+
+#confetti-canvas.yes {
+  display: inline;
+}
