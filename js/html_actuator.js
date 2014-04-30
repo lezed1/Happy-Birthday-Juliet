@@ -67,23 +67,31 @@ HTMLActuator.prototype.addTile = function (tile) {
   switch(tile.value) {
     
     case 2:
-      display = "P";
+      display = "Ha";
       break;
     
     case 4:
-      display = "R";
+      display = "Happ";
       break;
     
     case 8:
-      display = "O";
+      display = "Happy ";
       break;
     
     case 16:
-      display = "M";
+      display = "Happy Bi";
       break;
     
     case 32:
-      display = "?";
+      display = "Happy Birth";
+      break;
+    
+    case 64:
+      display = "Happy Birthda";
+      break;
+    
+    case 128:
+      display = "Happy Birthday!";
       break;
 
     default:
@@ -155,7 +163,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "Go to prom with me?" : "Game over!";
+  var message = won ? "Happy Birthday!" : "Game over!";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
